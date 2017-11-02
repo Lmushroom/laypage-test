@@ -8,6 +8,6 @@ git 提交流程：
 6、git push -u origin master
 
 
-更新：git pull
-提交：git push
+更新：git pull origin
+提交：git push origin master
 
