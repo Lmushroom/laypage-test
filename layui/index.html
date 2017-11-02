@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<title>开始使用</title>
+<link rel="stylesheet" type="text/css" href="css/layui.css"/>
+<script src="layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="config/config.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	layui.use(['main','test','test1'],function(){
+		var main = layui.main;
+		test = layui.test;
+		test1 = layui.test1;
+		test.hello('world');
+		test1._con();
+	})
+</script>
+</head>
+<body>
+</body>
+</html>
