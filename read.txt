@@ -5,7 +5,9 @@ laypage({...});
 引入layui.js（不需要引入jquery.js,layui.js有内置的jquery.js）和layui.css,调用方法为：
 layui.use("laypage",function(){
 	var laypage = layui.laypage;
-	laypage.render({...});
+	laypage.render({
+		...
+	});
 });
 
 这两种方式都可以实现分页，但是有时会出现报错，提示文件找不到。这是因为在layui内部有默认的引入路径，所以按照报错
