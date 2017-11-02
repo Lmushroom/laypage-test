@@ -7,3 +7,7 @@ git 提交流程：
 5、git remote add origin git地址
 6、git push -u origin master
 
+
+更新：git pull
+提交：git push
+
