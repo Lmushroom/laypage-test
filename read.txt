@@ -1,5 +1,7 @@
-之前在使用laypage的时候直接引用的laypage.js（当然，前提是先引入jquery.js）和laypage.css,调用方法为laypage({...});
-但是最近在使用laypage的时候发现了另一种使用方式：引入layui.js（不需要引入jquery.js，layui.js有内置的jquery.js）和layui.css,调用方法为：
+之前在使用laypage的时候直接引用的laypage.js（当然，前提是先引入jquery.js）和laypage.css,调用方法为:
+laypage({...});
+但是最近在使用laypage的时候发现了另一种使用方式：
+引入layui.js（不需要引入jquery.js，layui.js有内置的jquery.js）和layui.css,调用方法为：
 layui.use("laypage",function(){
 	var laypage = layui.laypage;
 	laypage.render({...});
